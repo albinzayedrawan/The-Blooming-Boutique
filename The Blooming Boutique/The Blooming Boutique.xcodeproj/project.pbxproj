@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7126D91A2A6593E000986DE2 /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126D9192A6593E000986DE2 /* EditAccountView.swift */; };
+		7126D91C2A65940F00986DE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126D91B2A65940F00986DE2 /* HomeView.swift */; };
+		7126D91E2A65978E00986DE2 /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126D91D2A65978E00986DE2 /* InformationView.swift */; };
+		7126D9202A6597D600986DE2 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126D91F2A6597D600986DE2 /* PaymentView.swift */; };
+		7126D9222A659C3300986DE2 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7126D9212A659C3300986DE2 /* CartView.swift */; };
+		714FC03A2A6577E900C4B035 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FC0392A6577E900C4B035 /* SignInView.swift */; };
+		714FC03C2A65782400C4B035 /* ForgotYourPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FC03B2A65782400C4B035 /* ForgotYourPasswordView.swift */; };
+		714FC03E2A657ECD00C4B035 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FC03D2A657ECD00C4B035 /* SignUpView.swift */; };
+		714FC0402A65810600C4B035 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714FC03F2A65810600C4B035 /* ProfileView.swift */; };
+		71C889662A695987002CCE40 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C889652A695987002CCE40 /* ConfirmationView.swift */; };
+		71F13535295DC2550080D311 /* The_Blooming_BoutiqueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13534295DC2550080D311 /* The_Blooming_BoutiqueApp.swift */; };
+		71F13537295DC2550080D311 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13536295DC2550080D311 /* ContentView.swift */; };
+		71F13539295DC2590080D311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F13538295DC2590080D311 /* Assets.xcassets */; };
+		71F1353C295DC2590080D311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F1353B295DC2590080D311 /* Preview Assets.xcassets */; };
+		71F13546295DC2590080D311 /* The_Blooming_BoutiqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */; };
+		71F13550295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */; };
+		71F13552295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71F13542295DC2590080D311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F13529295DC2550080D311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F13530295DC2550080D311;
+			remoteInfo = "The Blooming Boutique";
+		};
+		71F1354C295DC2590080D311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71F13529295DC2550080D311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71F13530295DC2550080D311;
+			remoteInfo = "The Blooming Boutique";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7126D9192A6593E000986DE2 /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
+		7126D91B2A65940F00986DE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7126D91D2A65978E00986DE2 /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		7126D91F2A6597D600986DE2 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		7126D9212A659C3300986DE2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		714FC0392A6577E900C4B035 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		714FC03B2A65782400C4B035 /* ForgotYourPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotYourPasswordView.swift; sourceTree = "<group>"; };
+		714FC03D2A657ECD00C4B035 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		714FC03F2A65810600C4B035 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		71C889652A695987002CCE40 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		71F13531295DC2550080D311 /* The Blooming Boutique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Blooming Boutique.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F13534295DC2550080D311 /* The_Blooming_BoutiqueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueApp.swift; sourceTree = "<group>"; };
+		71F13536295DC2550080D311 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71F13538295DC2590080D311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F1353B295DC2590080D311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Blooming BoutiqueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueTests.swift; sourceTree = "<group>"; };
+		71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Blooming BoutiqueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueUITests.swift; sourceTree = "<group>"; };
+		71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F1352E295DC2550080D311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F1353E295DC2590080D311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F13548295DC2590080D311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F13528295DC2550080D311 = {
+			isa = PBXGroup;
+			children = (
+				71F13533295DC2550080D311 /* The Blooming Boutique */,
+				71F13544295DC2590080D311 /* The Blooming BoutiqueTests */,
+				71F1354E295DC2590080D311 /* The Blooming BoutiqueUITests */,
+				71F13532295DC2550080D311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F13532295DC2550080D311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F13531295DC2550080D311 /* The Blooming Boutique.app */,
+				71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */,
+				71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F13533295DC2550080D311 /* The Blooming Boutique */ = {
+			isa = PBXGroup;
+			children = (
+				71F13534295DC2550080D311 /* The_Blooming_BoutiqueApp.swift */,
+				71F13536295DC2550080D311 /* ContentView.swift */,
+				714FC0392A6577E900C4B035 /* SignInView.swift */,
+				714FC03B2A65782400C4B035 /* ForgotYourPasswordView.swift */,
+				714FC03D2A657ECD00C4B035 /* SignUpView.swift */,
+				7126D91B2A65940F00986DE2 /* HomeView.swift */,
+				714FC03F2A65810600C4B035 /* ProfileView.swift */,
+				7126D9192A6593E000986DE2 /* EditAccountView.swift */,
+				7126D9212A659C3300986DE2 /* CartView.swift */,
+				7126D91D2A65978E00986DE2 /* InformationView.swift */,
+				7126D91F2A6597D600986DE2 /* PaymentView.swift */,
+				71C889652A695987002CCE40 /* ConfirmationView.swift */,
+				71F13538295DC2590080D311 /* Assets.xcassets */,
+				71F1353A295DC2590080D311 /* Preview Content */,
+			);
+			path = "The Blooming Boutique";
+			sourceTree = "<group>";
+		};
+		71F1353A295DC2590080D311 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71F1353B295DC2590080D311 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71F13544295DC2590080D311 /* The Blooming BoutiqueTests */ = {
+			isa = PBXGroup;
+			children = (
+				71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */,
+			);
+			path = "The Blooming BoutiqueTests";
+			sourceTree = "<group>";
+		};
+		71F1354E295DC2590080D311 /* The Blooming BoutiqueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */,
+				71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */,
+			);
+			path = "The Blooming BoutiqueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F13530295DC2550080D311 /* The Blooming Boutique */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F13555295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming Boutique" */;
+			buildPhases = (
+				71F1352D295DC2550080D311 /* Sources */,
+				71F1352E295DC2550080D311 /* Frameworks */,
+				71F1352F295DC2550080D311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Blooming Boutique";
+			productName = "The Blooming Boutique";
+			productReference = 71F13531295DC2550080D311 /* The Blooming Boutique.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71F13540295DC2590080D311 /* The Blooming BoutiqueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F13558295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueTests" */;
+			buildPhases = (
+				71F1353D295DC2590080D311 /* Sources */,
+				71F1353E295DC2590080D311 /* Frameworks */,
+				71F1353F295DC2590080D311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F13543295DC2590080D311 /* PBXTargetDependency */,
+			);
+			name = "The Blooming BoutiqueTests";
+			productName = "The Blooming BoutiqueTests";
+			productReference = 71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71F1354A295DC2590080D311 /* The Blooming BoutiqueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F1355B295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueUITests" */;
+			buildPhases = (
+				71F13547295DC2590080D311 /* Sources */,
+				71F13548295DC2590080D311 /* Frameworks */,
+				71F13549295DC2590080D311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71F1354D295DC2590080D311 /* PBXTargetDependency */,
+			);
+			name = "The Blooming BoutiqueUITests";
+			productName = "The Blooming BoutiqueUITests";
+			productReference = 71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F13529295DC2550080D311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					71F13530295DC2550080D311 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					71F13540295DC2590080D311 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 71F13530295DC2550080D311;
+					};
+					71F1354A295DC2590080D311 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 71F13530295DC2550080D311;
+					};
+				};
+			};
+			buildConfigurationList = 71F1352C295DC2550080D311 /* Build configuration list for PBXProject "The Blooming Boutique" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F13528295DC2550080D311;
+			productRefGroup = 71F13532295DC2550080D311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F13530295DC2550080D311 /* The Blooming Boutique */,
+				71F13540295DC2590080D311 /* The Blooming BoutiqueTests */,
+				71F1354A295DC2590080D311 /* The Blooming BoutiqueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F1352F295DC2550080D311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F1353C295DC2590080D311 /* Preview Assets.xcassets in Resources */,
+				71F13539295DC2590080D311 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F1353F295DC2590080D311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F13549295DC2590080D311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F1352D295DC2550080D311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714FC03A2A6577E900C4B035 /* SignInView.swift in Sources */,
+				71C889662A695987002CCE40 /* ConfirmationView.swift in Sources */,
+				714FC03E2A657ECD00C4B035 /* SignUpView.swift in Sources */,
+				714FC03C2A65782400C4B035 /* ForgotYourPasswordView.swift in Sources */,
+				7126D9202A6597D600986DE2 /* PaymentView.swift in Sources */,
+				71F13537295DC2550080D311 /* ContentView.swift in Sources */,
+				714FC0402A65810600C4B035 /* ProfileView.swift in Sources */,
+				7126D9222A659C3300986DE2 /* CartView.swift in Sources */,
+				7126D91C2A65940F00986DE2 /* HomeView.swift in Sources */,
+				7126D91E2A65978E00986DE2 /* InformationView.swift in Sources */,
+				7126D91A2A6593E000986DE2 /* EditAccountView.swift in Sources */,
+				71F13535295DC2550080D311 /* The_Blooming_BoutiqueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F1353D295DC2590080D311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F13546295DC2590080D311 /* The_Blooming_BoutiqueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F13547295DC2590080D311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F13550295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift in Sources */,
+				71F13552295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71F13543295DC2590080D311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F13530295DC2550080D311 /* The Blooming Boutique */;
+			targetProxy = 71F13542295DC2590080D311 /* PBXContainerItemProxy */;
+		};
+		71F1354D295DC2590080D311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71F13530295DC2550080D311 /* The Blooming Boutique */;
+			targetProxy = 71F1354C295DC2590080D311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71F13553295DC2590080D311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71F13554295DC2590080D311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F13556295DC2590080D311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Blooming Boutique/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-Boutique";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F13557295DC2590080D311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Blooming Boutique/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-Boutique";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71F13559295DC2590080D311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blooming Boutique.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Blooming Boutique";
+			};
+			name = Debug;
+		};
+		71F1355A295DC2590080D311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blooming Boutique.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Blooming Boutique";
+			};
+			name = Release;
+		};
+		71F1355C295DC2590080D311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Blooming Boutique";
+			};
+			name = Debug;
+		};
+		71F1355D295DC2590080D311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7K4G6B8W29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Blooming Boutique";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F1352C295DC2550080D311 /* Build configuration list for PBXProject "The Blooming Boutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F13553295DC2590080D311 /* Debug */,
+				71F13554295DC2590080D311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F13555295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming Boutique" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F13556295DC2590080D311 /* Debug */,
+				71F13557295DC2590080D311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F13558295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F13559295DC2590080D311 /* Debug */,
+				71F1355A295DC2590080D311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F1355B295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F1355C295DC2590080D311 /* Debug */,
+				71F1355D295DC2590080D311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F13529295DC2550080D311 /* Project object */;
+}
