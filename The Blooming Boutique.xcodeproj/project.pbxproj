@@ -21,27 +21,7 @@
 		71F13537295DC2550080D311 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13536295DC2550080D311 /* ContentView.swift */; };
 		71F13539295DC2590080D311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F13538295DC2590080D311 /* Assets.xcassets */; };
 		71F1353C295DC2590080D311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F1353B295DC2590080D311 /* Preview Assets.xcassets */; };
-		71F13546295DC2590080D311 /* The_Blooming_BoutiqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */; };
-		71F13550295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */; };
-		71F13552295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		71F13542295DC2590080D311 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71F13529295DC2550080D311 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71F13530295DC2550080D311;
-			remoteInfo = "The Blooming Boutique";
-		};
-		71F1354C295DC2590080D311 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71F13529295DC2550080D311 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71F13530295DC2550080D311;
-			remoteInfo = "The Blooming Boutique";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7126D9192A6593E000986DE2 /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
@@ -59,29 +39,10 @@
 		71F13536295DC2550080D311 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71F13538295DC2590080D311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F1353B295DC2590080D311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Blooming BoutiqueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueTests.swift; sourceTree = "<group>"; };
-		71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Blooming BoutiqueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueUITests.swift; sourceTree = "<group>"; };
-		71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Blooming_BoutiqueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		71F1352E295DC2550080D311 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F1353E295DC2590080D311 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F13548295DC2590080D311 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				71F13533295DC2550080D311 /* The Blooming Boutique */,
-				71F13544295DC2590080D311 /* The Blooming BoutiqueTests */,
-				71F1354E295DC2590080D311 /* The Blooming BoutiqueUITests */,
 				71F13532295DC2550080D311 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				71F13531295DC2550080D311 /* The Blooming Boutique.app */,
-				71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */,
-				71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,23 +97,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		71F13544295DC2590080D311 /* The Blooming BoutiqueTests */ = {
-			isa = PBXGroup;
-			children = (
-				71F13545295DC2590080D311 /* The_Blooming_BoutiqueTests.swift */,
-			);
-			path = "The Blooming BoutiqueTests";
-			sourceTree = "<group>";
-		};
-		71F1354E295DC2590080D311 /* The Blooming BoutiqueUITests */ = {
-			isa = PBXGroup;
-			children = (
-				71F1354F295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift */,
-				71F13551295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift */,
-			);
-			path = "The Blooming BoutiqueUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,42 +117,6 @@
 			productReference = 71F13531295DC2550080D311 /* The Blooming Boutique.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71F13540295DC2590080D311 /* The Blooming BoutiqueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71F13558295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueTests" */;
-			buildPhases = (
-				71F1353D295DC2590080D311 /* Sources */,
-				71F1353E295DC2590080D311 /* Frameworks */,
-				71F1353F295DC2590080D311 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71F13543295DC2590080D311 /* PBXTargetDependency */,
-			);
-			name = "The Blooming BoutiqueTests";
-			productName = "The Blooming BoutiqueTests";
-			productReference = 71F13541295DC2590080D311 /* The Blooming BoutiqueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		71F1354A295DC2590080D311 /* The Blooming BoutiqueUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71F1355B295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueUITests" */;
-			buildPhases = (
-				71F13547295DC2590080D311 /* Sources */,
-				71F13548295DC2590080D311 /* Frameworks */,
-				71F13549295DC2590080D311 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71F1354D295DC2590080D311 /* PBXTargetDependency */,
-			);
-			name = "The Blooming BoutiqueUITests";
-			productName = "The Blooming BoutiqueUITests";
-			productReference = 71F1354B295DC2590080D311 /* The Blooming BoutiqueUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,14 +129,6 @@
 				TargetAttributes = {
 					71F13530295DC2550080D311 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					71F13540295DC2590080D311 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 71F13530295DC2550080D311;
-					};
-					71F1354A295DC2590080D311 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 71F13530295DC2550080D311;
 					};
 				};
 			};
@@ -250,8 +146,6 @@
 			projectRoot = "";
 			targets = (
 				71F13530295DC2550080D311 /* The Blooming Boutique */,
-				71F13540295DC2590080D311 /* The Blooming BoutiqueTests */,
-				71F1354A295DC2590080D311 /* The Blooming BoutiqueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,20 +157,6 @@
 			files = (
 				71F1353C295DC2590080D311 /* Preview Assets.xcassets in Resources */,
 				71F13539295DC2590080D311 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F1353F295DC2590080D311 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F13549295DC2590080D311 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,37 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71F1353D295DC2590080D311 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71F13546295DC2590080D311 /* The_Blooming_BoutiqueTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71F13547295DC2590080D311 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71F13550295DC2590080D311 /* The_Blooming_BoutiqueUITests.swift in Sources */,
-				71F13552295DC2590080D311 /* The_Blooming_BoutiqueUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		71F13543295DC2590080D311 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71F13530295DC2550080D311 /* The Blooming Boutique */;
-			targetProxy = 71F13542295DC2590080D311 /* PBXContainerItemProxy */;
-		};
-		71F1354D295DC2590080D311 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71F13530295DC2550080D311 /* The Blooming Boutique */;
-			targetProxy = 71F1354C295DC2590080D311 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		71F13553295DC2590080D311 /* Debug */ = {
@@ -507,82 +357,6 @@
 			};
 			name = Release;
 		};
-		71F13559295DC2590080D311 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7K4G6B8W29;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blooming Boutique.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Blooming Boutique";
-			};
-			name = Debug;
-		};
-		71F1355A295DC2590080D311 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7K4G6B8W29;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Blooming Boutique.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Blooming Boutique";
-			};
-			name = Release;
-		};
-		71F1355C295DC2590080D311 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7K4G6B8W29;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Blooming Boutique";
-			};
-			name = Debug;
-		};
-		71F1355D295DC2590080D311 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7K4G6B8W29;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "TheBloomingBoutique.The-Blooming-BoutiqueUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Blooming Boutique";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,24 +374,6 @@
 			buildConfigurations = (
 				71F13556295DC2590080D311 /* Debug */,
 				71F13557295DC2590080D311 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71F13558295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71F13559295DC2590080D311 /* Debug */,
-				71F1355A295DC2590080D311 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71F1355B295DC2590080D311 /* Build configuration list for PBXNativeTarget "The Blooming BoutiqueUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71F1355C295DC2590080D311 /* Debug */,
-				71F1355D295DC2590080D311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
